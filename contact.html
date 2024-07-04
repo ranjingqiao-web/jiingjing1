@@ -55,11 +55,11 @@
       }
 
       .map-custom {
-        background-color: blue;
-        /* background-image: url(assets/img/lxwm.jpg); */
+        /* background-color: blue; */
+        background-image: url(assets/img/lxwm.jpg);
         background-repeat: no-repeat;
-        background-size: contain;
-        height: 404px;
+        background-size: cover;
+        height: 466px;
         padding-left: 30%;
       }
       .ydd {
@@ -77,37 +77,49 @@
         border: 1px solid #fff;
         border-radius: 5px;
       }
-      .lxwomen{
+      .lxwomen {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
         padding: 40px 0;
       }
-      .lxwomen-item{
-        width: 400px;
-        height: 400px;
-        margin-right: 20px;
+      .lxwomen-item {
+        width: 200px;
+        height: 200px;
+        margin-right: 60px;
       }
-      .lxwomen-item img{
+      .lxwomen-item img {
         width: 100%;
         height: 100%;
         display: block;
       }
+      .kkkk {
+        width: 100%;
+        padding: 30px;
+        height: 404px;
+      }
       @media (max-width: 800px) {
-        .lxwomen{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-      }
-      .lxwomen-item{
-        width: 400px;
-        height: 400px;
-        margin-bottom: 30px;
-        margin-right: 0px;
-
-      }
+        .lxwomen {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+        .kkkk {
+          width: 100%;
+          padding: 30px;
+          height: auto;
+        }
+        .map-custom {
+          height: 990px;
+        }
+        .lxwomen-item {
+          width: 200px;
+          height: 200px;
+          margin-bottom: 30px;
+          margin-right: 0px;
+        }
         .ydd {
           flex-direction: column;
         }
@@ -347,14 +359,16 @@
               data-dsn-len="31.258553"
               data-dsn-zoom="14"
             ></div>
-            <div
-              class="box-text section-padding p-relative background-theme2"
-              style="width: 100%; padding: 30px; height: 404px; padding-left: 30%"
-            >
-              <h5 class="title-block">OUR STUDIO</h5>
+            <div class="box-text section-padding p-relative background-theme2 kkkk">
+              <h5
+                class="title-block"
+                style="text-align: center"
+              >
+                OUR STUDIO
+              </h5>
               <div
                 class="address-container"
-                style="width: 100%"
+                style="width: 100%; text-align: center; display: flex; justify-content: center"
               >
                 <ul>
                   <li class="contact-info-item d-flex">
@@ -376,56 +390,81 @@
                   <li class="contact-info-item d-flex">
                     <strong>Addiress</strong>
                     <span class="dott">:</span>
-                    <p>
-                      El-Mahalla El-Kubra 37 , 1776 Damietta
-                      <br />
-                      Egypt
-                    </p>
+                    <p>El-Mahalla El-Kubra 37 , 1776 Damietta Egypt</p>
                   </li>
                 </ul>
               </div>
+              <div class="lxwomen">
+                <div class="lxwomen-item">
+                 <B><center style="color: #fff;margin-bottom: 10px;">企业微信</center></B>  
+                  <img
+                    src="assets/img/lxwm3.jpg"
+                    alt=""
+                    srcset=""
+                  />
+                </div>
 
-              <div class="ydd">
-                <li
-                  class="contact-info-item d-flex"
-                  style="margin-right: 40px"
-                >
-                  <strong></strong>
-                  <span class="dott"></span>
-                  <a
-                    class="abq"
-                    href="http://baidu.com"
-                  >
-                    企业1:http://baidu.com
-                  </a>
-                </li>
-                <li
-                  class="contact-info-item d-flex"
-                  style="margin-right: 40px"
-                >
-                  <strong></strong>
-                  <span class="dott"></span>
-                  <a
-                    class="abq"
-                    href="http://baidu.com"
-                  >
-                    企业1:http://baidu.com
-                  </a>
-                </li>
-                <li
-                  class="contact-info-item d-flex"
-                  style="margin-right: 40px"
-                >
-                  <strong></strong>
-                  <span class="dott"></span>
-                  <a
-                    class="abq"
-                    href="http://baidu.com"
-                  >
-                    企业1:http://baidu.com
-                  </a>
-                </li>
+                <div class="lxwomen-item">
+                   
+                  <B><center style="color: #fff;margin-bottom: 10px;">Telegram</center></B>
+                  <img
+                    src="assets/img/lxwm2.jpg"
+                    alt=""
+                    srcset=""
+                  />
+                </div>
+                <div class="lxwomen-item">
+                   
+                  <B><center style="color: #fff;margin-bottom: 10px;">WhatsApp</center></B>
+
+                  <img
+                    src="assets/img/lxwm1.jpg"
+                    alt=""
+                    srcset=""
+                  />
+                </div>
               </div>
+              <!-- <div class="ydd">
+                <li
+                  class="contact-info-item d-flex"
+                  style="margin-right: 40px"
+                >
+                  <strong></strong>
+                  <span class="dott"></span>
+                  <a
+                    class="abq"
+                    href="http://baidu.com"
+                  >
+                    企业1:http://baidu.com
+                  </a>
+                </li>
+                <li
+                  class="contact-info-item d-flex"
+                  style="margin-right: 40px"
+                >
+                  <strong></strong>
+                  <span class="dott"></span>
+                  <a
+                    class="abq"
+                    href="http://baidu.com"
+                  >
+                    企业1:http://baidu.com
+                  </a>
+                </li>
+                <li
+                  class="contact-info-item d-flex"
+                  style="margin-right: 40px"
+                >
+                  <strong></strong>
+                  <span class="dott"></span>
+                  <a
+                    class="abq"
+                    href="http://baidu.com"
+                  >
+                    企业1:http://baidu.com
+                  </a>
+                </li>
+              </div> -->
               <div class="shap-section">
                 <img
                   src="assets/img/arr.svg"
@@ -435,7 +474,7 @@
             </div>
           </div>
         </div>
-        <div class="lxwomen">
+        <!-- <div class="lxwomen">
           <div class="lxwomen-item">
             <img src="assets/img/lxwm1.jpg" alt="" srcset="">
           </div>
@@ -447,7 +486,7 @@
             <img src="assets/img/lxwm3.jpg" alt="" srcset="">
 
           </div>
-        </div>
+        </div> -->
         <!-- <div class="contact-up p-relative section-margin">
       <div class="container">
         <div class="">
