@@ -42,7 +42,15 @@
     font-weight: bold;
     color: #ffa500;
     animation: moneyScroll 5s linear infinite;
+  } 
+    .gundong{
+      display: flex;flex-direction: row;align-items: center;justify-content: space-between;
+    }
+@media (max-width: 800px) {
+  .gundong{
+  flex-direction: column;
   }
+}
   </style>
 </head>
 
@@ -301,7 +309,7 @@
             <h5 style="margin-top: 20px;"><center>黑森是一家专注全球企业增长赛道的B|科技公司，聚焦科学营销科技领域、拥有头部媒体代理</center></h5>
             <h5 style="margin-top: 20px;"><center>资质和自主研发商业智能投放管理系统--BI4sight。</center></h5>
             <h5 style="margin-bottom: 50px;"><center> <button style="margin-top: 40px; width: 150px;height: 50px;text-align: center;line-height: 50px; background-color: #fff;border-radius: 50px;"><a href="contact.html">  联系我们</a></button></center></h5>
-             <div style="display: flex;flex-direction: row;align-items: center;justify-content: space-between;">
+             <div class="gundong">
                   <div style="width: 300px;height: 300px;line-height: 300px;text-align: center;">
                    <h3  id="money1">250</h3>
                    <h5 style="margin-top: 30px;">覆盖全球国家/地区</h5>
