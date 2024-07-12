@@ -2860,9 +2860,134 @@ function contactValidator() {
   </div>`;
 
     $('#chuhaiHtml').html(chuhaiHtml);
-
- 
+     
+     let HTML854 = `<div class="wapper-client">
+     <div class="logo-box">
+       <div class="after-bg p-absolute w-100 h-100 cover-bg" data-image-src="assets/img/pattern.png"></div>
+       <img src="assets/img/logo/1.png" alt="">
+       <div class="info">
+         <div class="content">
+           <div class="entry">
+             <div>
+               <h5>Facebook</h5>
+               <a href="https://about.fb.com/">about.fb.com/</a>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div class="logo-box">
+       <div class="after-bg p-absolute w-100 h-100 cover-bg" data-image-src="assets/img/pattern.png"></div>
+       <img src="assets/img/logo/2.png" alt="">
+       <div class="info">
+         <div class="content">
+           <div class="entry">
+             <div>
+               <h5>Google</h5>
+               <a href="https://www.google.com/">www.google.com</a>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div class="logo-box">
+       <div class="after-bg p-absolute w-100 h-100 cover-bg" data-image-src="assets/img/pattern.png"></div>
+       <img src="assets/img/logo/3.png" alt="">
+       <div class="info">
+         <div class="content">
+           <div class="entry">
+             <div>
+               <h5>Tiktok</h5>
+               <a href="https://www.tiktok.com/">www.tiktok.com</a>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div class="logo-box">
+       <div class="after-bg p-absolute w-100 h-100 cover-bg" data-image-src="assets/img/pattern.png"></div>
+       <img src="assets/img/logo/4.png" alt="">
+       <div class="info">
+         <div class="content">
+           <div class="entry">
+             <div>
+               <h5>Kwai</h5>
+               <a href="https://www.kuaishou.com/">www.kuaishou.com</a>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div class="logo-box">
+       <div class="after-bg p-absolute w-100 h-100 cover-bg" data-image-src="assets/img/pattern.png"></div>
+       <img src="assets/img/logo/5.png" alt="">
+       <div class="info">
+         <div class="content">
+           <div class="entry">
+             <div>
+               <h5>Twitter</h5>
+               <a href="https://twitter.com">twitter.com</a>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div class="logo-box">
+       <div class="after-bg p-absolute w-100 h-100 cover-bg" data-image-src="assets/img/pattern.png"></div>
+       <img src="assets/img/logo/6.png" alt="">
+       <div class="info">
+         <div class="content">
+           <div class="entry">
+             <div>
+               <h5>Snapchat</h5>
+               <a href="https://www.snapchat.com">www.snapchat.com</a>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div class="logo-box">
+       <div class="after-bg p-absolute w-100 h-100 cover-bg" data-image-src="assets/img/pattern.png"></div>
+       <img src="assets/img/logo/7.png" alt="">
+       <div class="info">
+         <div class="content">
+           <div class="entry">
+             <div>
+               <h5>AppLovin</h5>
+               <a href="https://www.bing.com">www.bing.com</a>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div class="logo-box">
+       <div class="after-bg p-absolute w-100 h-100 cover-bg" data-image-src="assets/img/pattern.png"></div>
+       <img src="assets/img/logo/8.png" alt="">
+       <div class="info">
+         <div class="content">
+           <div class="entry">
+             <div>
+               <h5>UnityAds</h5>
+               <a href="https://www.bigo.tv/">www.bigo.tv</a>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>`
+   $('#HTML854').html(HTML854);
         window.$crisp=[];window.CRISP_WEBSITE_ID="16f31e7f-3872-416c-8002-2339dad82cee";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
         
 
 }
+
+
+
+// Meta (Facebook): https://about.fb.com/
+// Google: https://www.google.com/
+// TikTok: https://www.tiktok.com/
+// Kwai (Kuaishou): https://www.kuaishou.com/
+// Snapchat: https://www.snapchat.com/
+// X (formerly Twitter): https://twitter.com/
+// Bing: https://www.bing.com/
+// Bigo Live: https://www.bigo.tv/
