@@ -2869,8 +2869,8 @@ function contactValidator() {
          <div class="content">
            <div class="entry">
              <div>
-               <h5>Meta (Facebook)</h5>
-               <a href="https://about.fb.com/">about.fb.com/</a>
+               <h5>Meta For Business</h5>
+               <a href="https://www.meta.com">www.meta.com/</a>
              </div>
            </div>
          </div>
@@ -2882,9 +2882,9 @@ function contactValidator() {
        <div class="info">
          <div class="content">
            <div class="entry">
-             <div>
-               <h5>Google</h5>
-               <a href="https://www.google.com/">www.google.com</a>
+             <div> 
+               <h5>Google Ads</h5>
+               <a href="https://ads.google.com/">ads.google.com</a>
              </div>
            </div>
          </div>
@@ -2897,8 +2897,8 @@ function contactValidator() {
          <div class="content">
            <div class="entry">
              <div>
-               <h5>Tiktok</h5>
-               <a href="https://www.tiktok.com/">www.tiktok.com</a>
+               <h5>Tiktok For Business</h5>
+               <a href="https://www.tiktok.com/business">www.tiktok.com/business</a>
              </div>
            </div>
          </div>
@@ -2911,8 +2911,8 @@ function contactValidator() {
          <div class="content">
            <div class="entry">
              <div>
-               <h5>Kwai</h5>
-               <a href="https://www.kuaishou.com/">www.kuaishou.com</a>
+               <h5>Kwai For Business</h5>
+               <a href="https://www.kwai.com/business">www.kwai.com/business</a>
              </div>
            </div>
          </div>
@@ -2925,8 +2925,8 @@ function contactValidator() {
          <div class="content">
            <div class="entry">
              <div>
-               <h5>X (formerly Twitter)</h5>
-               <a href="https://twitter.com">twitter.com</a>
+               <h5>X Ads</h5>
+               <a href="https://business.x.com/en/advertising.html">business.x.com</a>
              </div>
            </div>
          </div>
@@ -2939,8 +2939,8 @@ function contactValidator() {
          <div class="content">
            <div class="entry">
              <div>
-               <h5>Snapchat</h5>
-               <a href="https://www.snapchat.com">www.snapchat.com</a>
+               <h5>Snapchat For Business</h5>
+               <a href="https://forbusiness.snapchat.com">forbusiness.snapchat.com</a>
              </div>
            </div>
          </div>
@@ -2953,8 +2953,8 @@ function contactValidator() {
          <div class="content">
            <div class="entry">
              <div>
-               <h5>Bing</h5>
-               <a href="https://www.bing.com">www.bing.com</a>
+               <h5>Bing Ads</h5>
+               <a href="https://www.bing-ads.cn/">www.bing-ads.cn</a>
              </div>
            </div>
          </div>
@@ -2967,8 +2967,8 @@ function contactValidator() {
          <div class="content">
            <div class="entry">
              <div>
-               <h5>Bigo Live</h5>
-               <a href="https://www.bigo.tv/">www.bigo.tv</a>
+               <h5>BIGO Ads</h5>
+               <a href="https://www.adsbigo.com/">www.adsbigo.com</a>
              </div>
            </div>
          </div>
@@ -2982,12 +2982,26 @@ function contactValidator() {
 }
 
 
+// Meta For Business
+// https://www.meta.com
 
-// Meta (Facebook): https://about.fb.com/
-// Google: https://www.google.com/
-// TikTok: https://www.tiktok.com/
-// Kwai (Kuaishou): https://www.kuaishou.com/
-// Snapchat: https://www.snapchat.com/
-// X (formerly Twitter): https://twitter.com/
-// Bing: https://www.bing.com/
-// Bigo Live: https://www.bigo.tv/
+// Google Ads
+// https://ads.google.com/
+
+// Tiktok For Business
+// https://www.tiktok.com/business
+
+// Kwai For Business
+// https://www.kwai.com/business
+
+// Snapchat For Business
+// https://forbusiness.snapchat.com
+
+// X Ads
+// https://business.x.com/en/advertising.html
+
+// Bing Ads
+// https://www.bing-ads.cn/
+
+// BIGO Ads
+// https://www.adsbigo.com/
