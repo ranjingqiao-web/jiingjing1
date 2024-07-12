@@ -2869,7 +2869,7 @@ function contactValidator() {
          <div class="content">
            <div class="entry">
              <div>
-               <h5>Facebook</h5>
+               <h5>Meta (Facebook)</h5>
                <a href="https://about.fb.com/">about.fb.com/</a>
              </div>
            </div>
@@ -2925,7 +2925,7 @@ function contactValidator() {
          <div class="content">
            <div class="entry">
              <div>
-               <h5>Twitter</h5>
+               <h5>X (formerly Twitter)</h5>
                <a href="https://twitter.com">twitter.com</a>
              </div>
            </div>
@@ -2953,7 +2953,7 @@ function contactValidator() {
          <div class="content">
            <div class="entry">
              <div>
-               <h5>AppLovin</h5>
+               <h5>Bing</h5>
                <a href="https://www.bing.com">www.bing.com</a>
              </div>
            </div>
@@ -2967,7 +2967,7 @@ function contactValidator() {
          <div class="content">
            <div class="entry">
              <div>
-               <h5>UnityAds</h5>
+               <h5>Bigo Live</h5>
                <a href="https://www.bigo.tv/">www.bigo.tv</a>
              </div>
            </div>
