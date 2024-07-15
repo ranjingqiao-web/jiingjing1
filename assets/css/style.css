@@ -4968,7 +4968,7 @@ a:hover {
 .our-work .work-item {
     height: 100vh
 }
- 
+
 .our-work .work-item .img-next-box:before {
     z-index: -1
 }
@@ -7725,8 +7725,7 @@ a:hover {
 header {
     overflow: hidden
 }
-
-header .header-master {
+  .header-master {
     position: relative;
     width: 100%;
     height: 100vh
@@ -7736,8 +7735,10 @@ header .header-master {
     header .header-master #dsn-hero-parallax-title {
         padding: 0 20px
     }
+
 }
 
+ 
 header .header-master .content {
     z-index: 2
 }
@@ -8447,7 +8448,7 @@ header .header-master.header-half .social-network-box {
 @media only screen and (max-width:767px) {
     .main-slider .bg-container {
         width: 100%;
-        left: 0
+        left: 0;
     }
 }
 
@@ -10652,15 +10653,18 @@ label {
     .our-work .work-item {
         height: 21vh
     }
+
     .intro-about .box-img {
         padding-left: 0;
-        height: 35vh!important;
+        height: 35vh !important;
     }
+
     .service.service-3 .services-item {
         padding: 25px;
         height: 150px;
     }
-    .brand-client .wapper-client{
+
+    .brand-client .wapper-client {
         justify-content: center;
     }
 }

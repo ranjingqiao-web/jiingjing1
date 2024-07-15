@@ -18,6 +18,26 @@
   <!-- custom styles(optional) -->
   <link href="assets/css/plugins.css" rel="stylesheet" />
   <link href="assets/css/style.css" rel="stylesheet" />
+
+  <style>
+    @media (max-width: 800px) {
+      .main-slider {
+        display: none;
+      }
+
+      .h-100-v {
+        height: 50vh;
+      }
+
+      .h-100 {
+        height: 53%;
+      }
+
+      .header-master {
+        height: 30vh !important;
+      }
+    }
+  </style>
 </head>
 <!--classic-menu-->
 
@@ -155,18 +175,16 @@
   </div>
   <main class="main-root">
     <div id="dsn-scrollbar">
-      <div class="main-slider demo-2 p-relative w-100 h-100-v over-hidden " data-dsn-header="parallax">
-        <div class="bg-container" id="dsn-hero-parallax-img">
-          <div class="slide-inner h-100">
+      <div class="main-slider">
+        <div>
+          <div class="slide-inner ">
             <div class="swiper-wrapper">
               <div class="slide-item swiper-slide">
-                <header data-dsn-header="parallax">
+                <!-- <header> -->
                   <div class="header-master">
-                    <div class="p-absolute w-100 h-100 over-hidden ">
-                      <!-- style="background-size: cover;background-repeat: no-repeat;background-image: url('./assets/img/a1.gif')" -->
+                    <div class="p-absolute w-100   over-hidden ">
                       <div class="header-scale-hero" data-dsn="video" data-overlay="2" id="dsn-hero-parallax-img">
                         <img style="display: block;width: 100vw;" src="assets/img/sy.gif" alt="" srcset="">
-                        <!-- <video style="width: 100%;height: 100%;" autoplay src="assets/p.mp4"></video> -->
                       </div>
                     </div>
                     <div class="container h-100">
@@ -188,325 +206,158 @@
                       </div>
 
                     </div>
-                    <!-- <div class="scroll-d p-absolute animation-rotate"><img src="assets/img/scroll_down.svg" alt=""></div> -->
                   </div>
-                </header>
-                <div class="image-bg cover-bg w-100 h-100 " data-image-src="assets/img/xy.gif" data-overlay="2"></div>
-                <div class="slide-content p-absolute h-100 w-100 ">
-                  <!-- <div class="row align-items-center h-100">
-                  <div class="content p-relative w-100">
-                    <div class="metas d-inline-block"><span>Product</span></div>
-                    <h1 class="title user-no-selection"><a href="project1.html" class="effect-ajax" data-dsn-ajax="slider">海外营销与增长服务平台</a></h1>
-                    <div class="sub-text-header d-inline-block user-no-selection">
-                      <h5>黑森网络 </h5>
-                    </div>
-                    <div class="dsn-button-link mt-30 user-no-selection"><a href="project1.html" class="link-custom effect-ajax d-flex a-item-center p-relative" data-dsn-ajax="slider"><span class="link-text">立即开始</span><span class="link-circle p-absolute"><i class="fas fa-arrow-right"></i></span></a></div>
-                  </div>
-                </div> 
-                <div class="description p-absolute d-flex a-item-center background-section">
-                  <p>Vin tries to reflect Diesel’s vision and combines the universe of the rock of the 80’s with a clear</p>
-                </div> -->
-                </div>
+                <!-- </header> -->
+
               </div>
-              <div class="slide-item swiper-slide">
-                <div class="image-bg cover-bg w-100 h-100" data-image-src="assets/img/project/project6/1.jpg"
-                  data-overlay="5" data-dsn-position="57%"></div>
-                <div class="slide-content p-absolute h-100 w-100 ">
-                  <div class="row align-items-center h-100">
-                    <div class="content p-relative w-100">
-                      <div class="metas d-inline-block user-no-selection"><span>Fashion</span><span>Photography</span>
-                      </div>
-                      <h1 class="title user-no-selection"><a href="project6.html" class="color-white effect-ajax"
-                          data-dsn-ajax="slider">NFL Combine</a></h1>
-                      <div class="sub-text-header d-inline-block user-no-selection">
-                        <h5>Kirk Roush </h5>
-                        <span>- March 1st 2017</span>
-                      </div>
-                      <div class="dsn-button-link mt-30 user-no-selection"><a href="project6.html"
-                          class="link-custom effect-ajax d-flex a-item-center p-relative" data-dsn-ajax="slider"><span
-                            class="link-text">View Case</span><span class="link-circle p-absolute"><i
-                              class="fas fa-arrow-right"></i></span></a></div>
-                    </div>
+            </div>
+
+          </div>
+          <div class="slide-item swiper-slide">
+            <div class="cover-bg h-100 w-100 p-absolute hidden" data-overlay="7"> </div>
+            <div class="image-bg cover-bg w-100 h-100">
+            </div>
+            <div class="slide-content p-absolute h-100 w-100 ">
+              <div class="row align-items-center h-100">
+                <div class="content p-relative w-100">
+                  <div class="metas d-inline-block user-no-selection"> <span>Architecture</span> <span>Video</span>
                   </div>
-                  <div class="description p-absolute d-flex a-item-center background-section">
-                    <p>Series of images used for Under Armour's NFL combine authentic apparel.
-                      Photography</p>
+                  <h1 class="title user-no-selection"> <a href="project7.html" class="color-white effect-ajax"
+                      data-dsn-ajax="slider">EQUATOR CGI</a> </h1>
+                  <div class="sub-text-header d-inline-block user-no-selection">
+                    <h5>Russian Archviz</h5>
+                    <span>- January 12th 2020</span>
                   </div>
-                </div>
-              </div>
-              <div class="slide-item swiper-slide">
-                <div class="image-bg cover-bg w-100 h-100" data-image-src="assets/img/project/project2/1.jpg"
-                  data-overlay="5" data-dsn-position="38%"> </div>
-                <div class="slide-content p-absolute h-100 w-100 ">
-                  <div class="row align-items-center h-100">
-                    <div class="content p-relative w-100">
-                      <div class="metas d-inline-block user-no-selection"> <span>Photography</span> </div>
-                      <h1 class="title user-no-selection"> <a href="project2.html" class="color-white effect-ajax"
-                          data-dsn-ajax="slider">Zero
-                          Untitled</a> </h1>
-                      <div class="sub-text-header d-inline-block user-no-selection">
-                        <h5>Aaron Brimhall</h5>
-                        <span>- March 17th 2020</span>
-                      </div>
-                      <div class="dsn-button-link mt-30 user-no-selection"> <a href="project2.html"
-                          class="link-custom effect-ajax d-flex a-item-center p-relative" data-dsn-ajax="slider"> <span
-                            class="link-text">View Case</span> <span class="link-circle p-absolute"> <i
-                              class="fas fa-arrow-right"></i> </span> </a> </div>
-                    </div>
-                  </div>
-                  <div class="description p-absolute d-flex a-item-center background-section">
-                    <p>A beautifully designed bike from
-                      Zero Motorcycles SR/S. Huggo Eccles
-                      from Untitled Motorcycles has created
-                      something spectacular to the eye.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="slide-item swiper-slide">
-                <div class="image-bg cover-bg w-100 h-100" data-image-src="assets/img/project/project5/1.jpg"
-                  data-overlay="5" data-dsn-position="58%"> </div>
-                <div class="slide-content p-absolute h-100 w-100 ">
-                  <div class="row align-items-center h-100">
-                    <div class="content p-relative w-100">
-                      <div class="metas d-inline-block user-no-selection"> <span>Fashion</span> <span>Photography</span>
-                      </div>
-                      <h1 class="title user-no-selection"> <a href="project5.html" class="color-white effect-ajax"
-                          data-dsn-ajax="slider">Blue Edition</a> </h1>
-                      <div class="sub-text-header d-inline-block user-no-selection">
-                        <h5>Elia Pirazzo </h5>
-                        <span>- March 29th 2020</span>
-                      </div>
-                      <div class="dsn-button-link mt-30 user-no-selection"> <a href="project5.html"
-                          class="link-custom effect-ajax d-flex a-item-center p-relative" data-dsn-ajax="slider"> <span
-                            class="link-text">View Case</span> <span class="link-circle p-absolute"> <i
-                              class="fas fa-arrow-right"></i> </span> </a> </div>
-                    </div>
-                  </div>
-                  <div class="description p-absolute d-flex a-item-center background-section">
-                    <p>Pink Tint Photosession for popular Model in Ukraine .</p>
-                  </div>
-                </div>
-              </div>
-              <div class="slide-item swiper-slide">
-                <div class="image-bg cover-bg w-100 h-100" data-image-src="assets/img/project/project3/1.jpg"
-                  data-overlay="6"> </div>
-                <div class="slide-content p-absolute h-100 w-100 ">
-                  <div class="row align-items-center h-100">
-                    <div class="content p-relative w-100">
-                      <div class="metas d-inline-block user-no-selection"> <span>Architecture</span> </div>
-                      <h1 class="title user-no-selection"> <a href="project3.html" class="color-white effect-ajax"
-                          data-dsn-ajax="slider">Black
-                          Apartment</a> </h1>
-                      <div class="sub-text-header d-inline-block user-no-selection">
-                        <h5>Georgiy Traksel</h5>
-                        <span>- March 25th 2020</span>
-                      </div>
-                      <div class="dsn-button-link mt-30 user-no-selection"> <a href="project3.html"
-                          class="link-custom effect-ajax d-flex a-item-center p-relative" data-dsn-ajax="slider"> <span
-                            class="link-text">View Case</span> <span class="link-circle p-absolute"> <i
-                              class="fas fa-arrow-right"></i> </span> </a> </div>
-                    </div>
-                  </div>
-                  <div class="description p-absolute d-flex a-item-center background-section">
-                    <p>Used softwares: 3ds max, corona
-                      render,quixel mixer and Photoshop Overall lighting HDRI</p>
-                  </div>
-                </div>
-              </div>
-              <div class="slide-item swiper-slide">
-                <div class="image-bg cover-bg w-100 h-100" data-image-src="assets/img/project/project4/1.jpg"
-                  data-overlay="5"> </div>
-                <div class="slide-content p-absolute h-100 w-100 ">
-                  <div class="row align-items-center h-100">
-                    <div class="content p-relative w-100">
-                      <div class="metas d-inline-block user-no-selection"> <span>Digital Art</span> </div>
-                      <h1 class="title user-no-selection"> <a href="project4.html" class="color-white effect-ajax"
-                          data-dsn-ajax="slider">Intentional</a> </h1>
-                      <div class="sub-text-header d-inline-block user-no-selection">
-                        <h5>Pawel Nolbert</h5>
-                        <span>- June 13th 2018</span>
-                      </div>
-                      <div class="dsn-button-link mt-30 user-no-selection"> <a href="project4.html"
-                          class="link-custom effect-ajax d-flex a-item-center p-relative" data-dsn-ajax="slider"> <span
-                            class="link-text">View Case</span> <span class="link-circle p-absolute"> <i
-                              class="fas fa-arrow-right"></i> </span> </a> </div>
-                    </div>
-                  </div>
-                  <div class="description p-absolute d-flex a-item-center background-section">
-                    <p>Personal conceptual project. Reflecting on my personal style of paint
-                      illustration.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="slide-item swiper-slide">
-                <div class="cover-bg h-100 w-100 p-absolute hidden" data-overlay="7"> </div>
-                <div class="image-bg cover-bg w-100 h-100">
-                  <!-- <img style="display: block;height: 100%;" src="assets/img/xy.gif" alt="" srcset=""> -->
-                  <!-- <div data-dsn="video" data-overlay="6">
-                  <video class="bg-image cover-bg dsn-video"
-                                           poster="assets/img/project/project7/1.jpg" autoplay loop muted>
-                    <source src="http://theme.dsngrid.com/video/Equator.mp4" type="video/mp4">
-                  </video>
-                </div> -->
-                </div>
-                <div class="slide-content p-absolute h-100 w-100 ">
-                  <div class="row align-items-center h-100">
-                    <div class="content p-relative w-100">
-                      <div class="metas d-inline-block user-no-selection"> <span>Architecture</span> <span>Video</span>
-                      </div>
-                      <h1 class="title user-no-selection"> <a href="project7.html" class="color-white effect-ajax"
-                          data-dsn-ajax="slider">EQUATOR CGI</a> </h1>
-                      <div class="sub-text-header d-inline-block user-no-selection">
-                        <h5>Russian Archviz</h5>
-                        <span>- January 12th 2020</span>
-                      </div>
-                      <div class="dsn-button-link mt-30 user-no-selection"> <a href="project7.html"
-                          class="link-custom effect-ajax d-flex a-item-center p-relative" data-dsn-ajax="slider"> <span
-                            class="link-text">View Case</span> <span class="link-circle p-absolute"> <i
-                              class="fas fa-arrow-right"></i> </span> </a> </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="slide-item swiper-slide">
-                <div class="image-bg cover-bg w-100 h-100" data-image-src="assets/img/project/project8/1.jpg"
-                  data-overlay="7" data-dsn-position="34%"> </div>
-                <div class="slide-content p-absolute h-100 w-100 ">
-                  <div class="row align-items-center h-100">
-                    <div class="content p-relative w-100">
-                      <div class="metas d-inline-block user-no-selection"> <span>Photography</span> </div>
-                      <h1 class="title user-no-selection"> <a href="project8.html" class="color-white effect-ajax"
-                          data-dsn-ajax="slider">NATIVE UNION</a> </h1>
-                      <div class="sub-text-header d-inline-block user-no-selection">
-                        <h5>Britney Lam</h5>
-                        <span>- September 14th 2019</span>
-                      </div>
-                      <div class="dsn-button-link mt-30 user-no-selection"> <a href="project8.html"
-                          class="link-custom effect-ajax d-flex a-item-center p-relative" data-dsn-ajax="slider"> <span
-                            class="link-text">View Case</span> <span class="link-circle p-absolute"> <i
-                              class="fas fa-arrow-right"></i> </span> </a> </div>
-                    </div>
-                  </div>
-                  <div class="description p-absolute d-flex a-item-center background-section">
-                    <p>Personal conceptual project. Reflecting on my personal style of paint
-                      illustration.</p>
-                  </div>
+                  <div class="dsn-button-link mt-30 user-no-selection"> <a href="project7.html"
+                      class="link-custom effect-ajax d-flex a-item-center p-relative" data-dsn-ajax="slider"> <span
+                        class="link-text">View Case</span> <span class="link-circle p-absolute"> <i
+                          class="fas fa-arrow-right"></i> </span> </a> </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <!-- <div class="box-next p-absolute nav-slider overflow-hidden header-no-scale-hero">
-        <div class="swiper-wrapper" role="navigation"></div>
-      </div> -->
-        <!-- <div class="dsn-controls p-absolute d-flex a-item-center">
-        <div class="dsn-numbers d-block text-center"> <span>01</span> </div>
-        <div class="dsn-progress p-relative">
-          <div class="dsn-progress-indicator p-absolute w-100"></div>
-        </div>
-        <div class="dsn-numbers d-block text-center"> <span class="full-number fw-blod">05</span> </div>
-      </div> -->
-        <!-- <div class="social-network-box text-center w-100-v">
-        <div class="social-network">
-          <ul>
-            <li><a class="link-hover" href="#" data-hover-text="facebook">facebook</a></li>
-            <li><a class="link-hover" href="#" data-hover-text="behance">behance</a></li>
-            <li><a class="link-hover" href="#" data-hover-text="instagram">instagram</a></li>
-          </ul>
-        </div>
-      </div> -->
-        <div class="dsn-slider-content p-absolute h-100 w-100">
-          <div class="content-slider margin-lr-100 p-relative w-100 h-100"></div>
+          <div class="slide-item swiper-slide">
+            <div class="image-bg cover-bg w-100 h-100" data-image-src="assets/img/project/project8/1.jpg"
+              data-overlay="7" data-dsn-position="34%"> </div>
+            <div class="slide-content p-absolute h-100 w-100 ">
+              <div class="row align-items-center h-100">
+                <div class="content p-relative w-100">
+                  <div class="metas d-inline-block user-no-selection"> <span>Photography</span> </div>
+                  <h1 class="title user-no-selection"> <a href="project8.html" class="color-white effect-ajax"
+                      data-dsn-ajax="slider">NATIVE UNION</a> </h1>
+                  <div class="sub-text-header d-inline-block user-no-selection">
+                    <h5>Britney Lam</h5>
+                    <span>- September 14th 2019</span>
+                  </div>
+                  <div class="dsn-button-link mt-30 user-no-selection"> <a href="project8.html"
+                      class="link-custom effect-ajax d-flex a-item-center p-relative" data-dsn-ajax="slider"> <span
+                        class="link-text">View Case</span> <span class="link-circle p-absolute"> <i
+                          class="fas fa-arrow-right"></i> </span> </a> </div>
+                </div>
+              </div>
+              <div class="description p-absolute d-flex a-item-center background-section">
+                <p>Personal conceptual project. Reflecting on my personal style of paint
+                  illustration.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="wrapper">
-        <section class="intro-about  section-margin have-dsn-animate-number" data-dsn-animate="section">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="intro-about-info">
-                  <div class="section-title-2">
-                    <h2>关于我们</h2>
-                    <p>what we do</p>
-                  </div>
-                  <div class="intro-about-info-bottom">
-                    <h2 class="title-h2 dsn-up">我们专注海外行业5年，成功助力5000+企业出海</h2>
-                    <p class="dsn-text">我们整合全球行业最佳资源，专业性地针对性地解决各类出海问题，提供最优质的渠道资源、制定最合适的营销方案、匹配最佳的优化团队，扶持国内外出海企业快速实现出海增长。
-                    </p>
-                    <div class="accordion mt-30">
-                      <div class="accordion__wrapper">
-                        <div class="accordion__item dsn-up">
-                          <div class="accordion__question expanded d-flex align-items-center p-relative"> <span
-                              class="icon"> <img src="assets/img/vision.svg" alt=""> </span>
-                            <h4 class="sm-title-block">我们的愿景</h4>
-                          </div>
-                          <div class="accordion__answer active">
-                            <p>成为全球领先的海外营销与增长服务平台，助力企业在国际市场中脱颖而出，实现可持续增长和品牌全球化。通过不断创新和优化，我们致力于为客户提供卓越的服务和显著的成果，成为值得信赖的长期合作伙伴。</p>
-                          </div>
+    </div>
+    <div class="dsn-slider-content p-absolute h-100 w-100">
+      <div class="content-slider margin-lr-100 p-relative w-100 h-100"></div>
+    </div>
+    </div>
+    <div class="wrapper">
+      <section class="intro-about  section-margin have-dsn-animate-number" data-dsn-animate="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="intro-about-info">
+                <div class="section-title-2">
+                  <h2>关于我们</h2>
+                  <p>what we do</p>
+                </div>
+                <div class="intro-about-info-bottom">
+                  <h2 class="title-h2 dsn-up">我们专注海外行业5年，成功助力5000+企业出海</h2>
+                  <p class="dsn-text">我们整合全球行业最佳资源，专业性地针对性地解决各类出海问题，提供最优质的渠道资源、制定最合适的营销方案、匹配最佳的优化团队，扶持国内外出海企业快速实现出海增长。
+                  </p>
+                  <div class="accordion mt-30">
+                    <div class="accordion__wrapper">
+                      <div class="accordion__item dsn-up">
+                        <div class="accordion__question expanded d-flex align-items-center p-relative"> <span
+                            class="icon"> <img src="assets/img/vision.svg" alt=""> </span>
+                          <h4 class="sm-title-block">我们的愿景</h4>
                         </div>
-                        <div class="accordion__item dsn-up">
-                          <div class="accordion__question d-flex align-items-center p-relative"> <span class="icon">
-                              <img src="assets/img/target.svg" alt=""> </span>
-                            <h4 class="sm-title-block">我们的目标</h4>
-                          </div>
-                          <div class="accordion__answer">
-                            <p>帮助国内外企业快速高效地实现出海增长，精准布局国际市场。通过整合全球资源和定制化的解决方案，我们致力于提升企业竞争力，确保每一步都稳健而有效，实现长期可持续的发展。</p>
-                          </div>
+                        <div class="accordion__answer active">
+                          <p>
+                            成为全球领先的海外营销与增长服务平台，助力企业在国际市场中脱颖而出，实现可持续增长和品牌全球化。通过不断创新和优化，我们致力于为客户提供卓越的服务和显著的成果，成为值得信赖的长期合作伙伴。
+                          </p>
                         </div>
-                        <div class="accordion__item dsn-up">
-                          <div class="accordion__question d-flex align-items-center p-relative"> <span class="icon">
-                              <img src="assets/img/mission.svg" alt=""> </span>
-                            <h4 class="sm-title-block">我们的使命</h4>
-                          </div>
-                          <div class="accordion__answer">
-                            <p>科技指引出海未来，为企业提供创新的技术和数据支持。我们致力于打造智能化的解决方案，帮助企业突破地域限制，实现全球化发展，推动行业进步，开创更加广阔的商业蓝图。</p>
-                          </div>
+                      </div>
+                      <div class="accordion__item dsn-up">
+                        <div class="accordion__question d-flex align-items-center p-relative"> <span class="icon">
+                            <img src="assets/img/target.svg" alt=""> </span>
+                          <h4 class="sm-title-block">我们的目标</h4>
+                        </div>
+                        <div class="accordion__answer">
+                          <p>帮助国内外企业快速高效地实现出海增长，精准布局国际市场。通过整合全球资源和定制化的解决方案，我们致力于提升企业竞争力，确保每一步都稳健而有效，实现长期可持续的发展。</p>
+                        </div>
+                      </div>
+                      <div class="accordion__item dsn-up">
+                        <div class="accordion__question d-flex align-items-center p-relative"> <span class="icon">
+                            <img src="assets/img/mission.svg" alt=""> </span>
+                          <h4 class="sm-title-block">我们的使命</h4>
+                        </div>
+                        <div class="accordion__answer">
+                          <p>科技指引出海未来，为企业提供创新的技术和数据支持。我们致力于打造智能化的解决方案，帮助企业突破地域限制，实现全球化发展，推动行业进步，开创更加广阔的商业蓝图。</p>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-6">
-                <div class="box-img p-relative">
-                  <div class="bg-section p-absolute w-100 h-100">
-                    <div class="h-100" data-dsn-grid="move-up"> <img class="cover-bg-img has-top-bottom"
-                        src="assets/img/1.jpeg" alt=""> </div>
-                  </div>
-                  <!-- <img src="assets/img/about-intro.jpg" alt="">
+            </div>
+            <div class="col-lg-6">
+              <div class="box-img p-relative">
+                <div class="bg-section p-absolute w-100 h-100">
+                  <div class="h-100" data-dsn-grid="move-up"> <img class="cover-bg-img has-top-bottom"
+                      src="assets/img/1.jpeg" alt=""> </div>
+                </div>
+                <!-- <img src="assets/img/about-intro.jpg" alt="">
                 <div class="exper background-theme p-absolute">
                   <div class="numb-ex"> <span class="word-text has-animate-number">25</span> </div>
                   <h4 class="sm-title-block dsn-up">YEARS OF <br>
                     DIGITAL EXPERIENCE</h4>
                   <div class="shap-section"> <img src="assets/img/arr.svg" alt=""> </div> -->
-                </div>
               </div>
             </div>
           </div>
+        </div>
+    </div>
+    </section>
+    <section class="service service-3 section-margin">
+
+      <div class="container">
+
+        <div class="section-title-2">
+          <h2>出海服务产品</h2>
+          <p>what we do</p>
+        </div>
+        <div class="row" id="chuhaiHtml">
+
+        </div>
       </div>
-      </section>
-      <section class="service service-3 section-margin"  >
-
-       <div class="container">
-
-          <div class="section-title-2">
-            <h2>出海服务产品</h2>
-            <p>what we do</p>
-          </div>
-          <div class="row" id="chuhaiHtml">
-            
-          </div>
-        </div>  
-      </section>
-      <!-- <div id="chuhaiHtml"></div> -->
-      <!-- <section class="skills-personal  background-section p-relative section-padding section-margin"
+    </section>
+    <!-- <div id="chuhaiHtml"></div> -->
+    <!-- <section class="skills-personal  background-section p-relative section-padding section-margin"
                      data-dsn-animate="sections">
         <div class="skills-inner container p-relative ">
           <div class="container no-padding section-title-2">
             <h2>出海服务产品</h2>
             <p>What we Best At</p>
           </div> -->
-      <!-- <div class="row" style="justify-content: space-between;">
+    <!-- <div class="row" style="justify-content: space-between;">
             <div class="col-lg-24">
               <div  class="col-lg-3 caret-auto-">
                 <img class="imgs" src="assets/img/services/graph.svg" alt="" srcset="">
@@ -528,7 +379,7 @@
 
                 <div style="margin-bottom: 20px;">      提供最新</div>行业动态和政策解读
               </div> -->
-      <!-- <div class="box-text">
+    <!-- <div class="box-text">
                 <h3 class="title-h2 dsn-text">We provide smart and flexible digital services </h3>
                 <div class="accordion">
                   <div class="accordion__wrapper">
@@ -577,9 +428,9 @@
                   </div>
                 </div>
               </div> -->
-      <!-- </div> -->
-      <!-- <div class="col-lg-6"> -->
-      <!-- <div class="skills-wapper">
+    <!-- </div> -->
+    <!-- <div class="col-lg-6"> -->
+    <!-- <div class="skills-wapper">
                 <div class="skills-item">
                   <h4 class="sm-title-block">Web Design</h4>
                   <div class="bar"> <span class="fill" data-width="88%"> <span class="number">88%</span> </span> </div>
@@ -596,11 +447,11 @@
                   <div class="tip"></div>
                 </div>
               </div> -->
-      <!-- </div>
+    <!-- </div>
           </div>
         </div>
       </section> -->
-      <!-- <section class="service service-3 section-margin dsn-animate" data-dsn-animate="section">
+    <!-- <section class="service service-3 section-margin dsn-animate" data-dsn-animate="section">
         <div class="container section-title-2">
           <h2>我们的优势</h2>
           <p>What We Do Best</p>
@@ -693,16 +544,16 @@
             </div>
           </div>
         </div> -->
-      </section>
-      <section class="our-work pt-section background-section section-margin dsn-arrow" data-dsn-col="3">
-        <div class="container section-title-2">
-          <h2>出海解决方案</h2>
-          <p>Overseas Solutions</p>
-        </div>
-        <div class="container-fluid" id="jjfa">
-           
-        </div>
-        <!-- </section>
+    </section>
+    <section class="our-work pt-section background-section section-margin dsn-arrow" data-dsn-col="3">
+      <div class="container section-title-2">
+        <h2>出海解决方案</h2>
+        <p>Overseas Solutions</p>
+      </div>
+      <div class="container-fluid" id="jjfa">
+
+      </div>
+      <!-- </section>
       <div class="box-gallery-vertical box-gallery-content  section-margin" data-dsn-animate="section"
                  data-dsn-duration="100%" data-dsn="color">
         <div class="mask-bg"></div>
@@ -739,7 +590,7 @@
           </div>
         </div>
       </div> -->
-        <!-- <section class="testimonials-2 testimonials-3 testimonials-new section-margin">
+      <!-- <section class="testimonials-2 testimonials-3 testimonials-new section-margin">
         <div class="container h-100 testimonials-inner background-section p-relative">
           <div class="section-title-2" data-dsn-grid="move-section" data-dsn-move="-60" data-dsn-duration="100%" data-dsn-opacity="1" data-dsn-responsive="tablet">
             <h2>Feedback from <br>
@@ -844,315 +695,110 @@
             </div>
           </div>
         </div> -->
-      </section>
-      <section class="brand-client section-margin">
-        <div class="container section-title-2">
-          <h2>合作媒体渠道</h2>
-          <p>Media Partners</p>
+    </section>
+    <section class="brand-client section-margin">
+      <div class="container section-title-2">
+        <h2>合作媒体渠道</h2>
+        <p>Media Partners</p>
+      </div>
+      <div class="container" id="HTML854">
+
+      </div>
+    </section> 
+    
+    <section class="next-up next-project p-relative section-padding">
+      <div class="bg-section p-absolute w-100 h-100 over-hidden">
+        <div class="h-100 before-z-index" data-dsn-grid="move-up" data-overlay="5"> <img
+            class="cover-bg-img has-top-bottom" src="assets/img/bg-2.jpeg" alt=""> </div>
+      </div>
+      <div class="container-fluid p-relative dsn-z-index-2">
+        <div class="row margin-lr-100">
+          <div class="col-lg-6 col-md-7 offset-lg-6 offset-md-5">
+            <div class="next-up-inner p-relative background-section">
+              <h2 class="title">我们 <br>
+                欢迎 <br>
+                您的加入！</h2>
+              <a href="contact.html" class="btn background-theme p-relative effect-ajax"
+                data-dsn="parallax"><span>联系我们</span></a>
+              <div class="infos d-flex a-item-center bd-highlight">
+                <div class="infos_content mr-auto"> See More <br>
+                  Works!</div>
+                <div class="infos_button "> <a href="work.html" class="effect-ajax image-zoom " data-dsn="parallax">
+                    portfolio </a> </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="container" id="HTML854">
-           
-        </div>
-      </section>
-      <!-- <section class="our-blog our-blog-classic section-margin p-relative" data-dsn-animate="section">
-        <div class="container section-title-2">
-          <h2>最近政策解读 </h2>
-          <p>Latest Policy</p>
-        </div>
-        <div class="container">
+      </div>
+    </section>
+    <footer class="footer-1 p-relative background-section">
+      <div class="container">
+        <div class="footer-links p-relative">
           <div class="row">
-            <div class="col-md-4 col-sm-6 dsn-up blog-classic-item">
-              <div class=" blog-item p-relative d-flex align-items-center h-100 w-100">
-                <div class="after-bg p-absolute w-100 h-100 cover-bg"
-                                     data-image-src="assets/img/pattern.png"> <img src="assets/img/blog/1.jpg" alt="" class="cover-bg-img"> </div>
-                <div class="box-content p-relative">
-                  <div class="box-content-body">
-                    <div class="entry-date"> <a href="#">March - 17th 2020</a> </div>
-                    <h4 class="title-block"><a href="#">Will you be attending Affiliate Summit
-                      Europe?</a></h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
-                      soluta
-                      pariatur
-                      ducimus quas eaque error sunt natus.</p>
-                    <a href="#" class="link-vist p-relative"> <span class="link-vist-text">Load More</span>
-                    <div class="link-vist-arrow">
-                      <svg viewBox="0 0 80 80">
-                        <polyline points="19.89 15.25 64.03 15.25 64.03 59.33"> </polyline>
-                        <line x1="64.03" y1="15.25" x2="14.03" y2="65.18"></line>
-                      </svg>
-                    </div>
-                    </a> </div>
+            <div class="col-lg-3 col-md-6 footer-block-inner">
+              <div class="footer-block">
+                <div class="footer-logo"> <a href=""> <img src="assets/img/logo.png" alt="" class="logo-dark"> <img
+                      src="assets/img/logo-dark.png" alt="" class="logo-light"> </a> </div>
+                <div class="textwidget">
+                  <p>我们专注海外行业5年，成功助力5000+企业出海，投放品类涉及游戏、电商、应用、金融、短剧等。</p>
                 </div>
               </div>
             </div>
-            <div class="col-md-4 col-sm-6 dsn-up blog-classic-item">
-              <div
-                                    class="blog-item p-relative blog-item-active d-flex align-items-center h-100 w-100">
-                <div class="after-bg p-absolute w-100 h-100 cover-bg"
-                                     data-image-src="assets/img/pattern.png"> <img src="assets/img/blog/2.jpg" alt="" class="cover-bg-img"> </div>
-                <div class="box-content p-relative">
-                  <div class="box-content-body">
-                    <div class="entry-date"> <a href="#">March - 17th 2020</a> </div>
-                    <h4 class="title-block"><a href="#">Will you be attending Affiliate Summit
-                      Europe?</a></h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
-                      soluta
-                      pariatur
-                      ducimus quas eaque error sunt natus.</p>
-                    <a href="#" class="link-vist p-relative"> <span class="link-vist-text">Load More</span>
-                    <div class="link-vist-arrow">
-                      <svg viewBox="0 0 80 80">
-                        <polyline points="19.89 15.25 64.03 15.25 64.03 59.33"> </polyline>
-                        <line x1="64.03" y1="15.25" x2="14.03" y2="65.18"></line>
-                      </svg>
-                    </div>
-                    </a> </div>
+            <div class="col-lg-3 col-md-6 footer-block-inner">
+              <div class="footer-block col-menu">
+                <h4 class="footer-title">关注我们</h4>
+                <div class="footer-social p-relative">
+                  <ul>
+                    <li class="over-hidden"> <a href="#" data-dsn="parallax" target="_blank" rel="nofollow">企业微信.</a>
+                    </li>
+                    <li class="over-hidden"> <a href="https://t.me/HessenNetwork" data-dsn="parallax" target="_blank"
+                        rel="nofollow">Telegram.</a> </li>
+                    <li class="over-hidden"> <a href="https://wa.me/message/I73U24PXMAYBO1" data-dsn="parallax"
+                        target="_blank" rel="nofollow">Whatsapp.</a> </li>
+                  </ul>
                 </div>
               </div>
             </div>
-            <div class="col-md-4 col-sm-6 dsn-up blog-classic-item">
-              <div class=" blog-item p-relative d-flex align-items-center h-100 w-100">
-                <div class="after-bg p-absolute w-100 h-100 cover-bg"
-                                     data-image-src="assets/img/pattern.png"> <img src="assets/img/blog/3.jpg" alt="" class="cover-bg-img"> </div>
-                <div class="box-content p-relative">
-                  <div class="box-content-body">
-                    <div class="entry-date"> <a href="#">March - 17th 2020</a> </div>
-                    <h4 class="title-block"><a href="#">Will you be attending Affiliate Summit
-                      Europe?</a></h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
-                      soluta
-                      pariatur
-                      ducimus quas eaque error sunt natus.</p>
-                    <a href="#" class="link-vist p-relative"> <span class="link-vist-text">Load More</span>
-                    <div class="link-vist-arrow">
-                      <svg viewBox="0 0 80 80">
-                        <polyline points="19.89 15.25 64.03 15.25 64.03 59.33"> </polyline>
-                        <line x1="64.03" y1="15.25" x2="14.03" y2="65.18"></line>
-                      </svg>
-                    </div>
-                    </a> </div>
-                </div>
+            <div class="col-lg-3 col-md-6 footer-block-inner">
+              <div class="footer-block col-contact">
+                <h4 class="footer-title">联系方式</h4>
+                <p><strong>T</strong> <span>:</span> +852 6610 5584</p>
+                <p class="over-hidden"><strong>E</strong> <span>:</span><a class="link-hover"
+                    data-hover-text="Hessenservice@outlook.com" href="#">Hessenservice@outlook.com</a> </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 footer-block-inner">
+              <div class="col-address">
+                <h4 class="footer-title">地址</h4>
+                <p>ROOM 511, 5/F,, MING SANG IND BLDG,,<br>
+                  19-21 HING YIP STREET,, KWUN TONG, <br>
+                  HONG KONG</p>
               </div>
             </div>
           </div>
-        </div> -->
-      <!-- </section>
-      <section class="brand-client section-margin">
-        <div class="container section-title-2">
-          <h2>合作的媒体</h2>
-          <p>Media Partners</p>
         </div>
+      </div>
+      <div class="footer-nav">
         <div class="container">
-          <div class="wapper-client">
-            <div class="logo-box">
-              <div class="after-bg p-absolute w-100 h-100 cover-bg"
-                                 data-image-src="assets/img/pattern.png"></div>
-              <img src="assets/img/logo/1.png" alt="">
-              <div class="info">
-                <div class="content">
-                  <div class="entry">
-                    <div>
-                      <h5>Facebook</h5>
-                      <a href="#">www.google.com</a> </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="logo-box">
-              <div class="after-bg p-absolute w-100 h-100 cover-bg"
-                                 data-image-src="assets/img/pattern.png"></div>
-              <img src="assets/img/logo/2.png" alt="">
-              <div class="info">
-                <div class="content">
-                  <div class="entry">
-                    <div>
-                      <h5>Google</h5>
-                      <a href="#">www.google.com</a> </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="logo-box">
-              <div class="after-bg p-absolute w-100 h-100 cover-bg"
-                                 data-image-src="assets/img/pattern.png"></div>
-              <img src="assets/img/logo/3.png" alt="">
-              <div class="info">
-                <div class="content">
-                  <div class="entry">
-                    <div>
-                      <h5>Tiktok</h5>
-                      <a href="#">www.google.com</a> </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="logo-box">
-              <div class="after-bg p-absolute w-100 h-100 cover-bg"
-                                 data-image-src="assets/img/pattern.png"></div>
-              <img src="assets/img/logo/4.png" alt="">
-              <div class="info">
-                <div class="content">
-                  <div class="entry">
-                    <div>
-                      <h5>Kwai</h5>
-                      <a href="#">www.google.com</a> </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="logo-box">
-              <div class="after-bg p-absolute w-100 h-100 cover-bg"
-                                 data-image-src="assets/img/pattern.png"></div>
-              <img src="assets/img/logo/5.png" alt="">
-              <div class="info">
-                <div class="content">
-                  <div class="entry">
-                    <div>
-                      <h5>Twitter</h5>
-                      <a href="#">www.google.com</a> </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="logo-box">
-              <div class="after-bg p-absolute w-100 h-100 cover-bg"
-                                 data-image-src="assets/img/pattern.png"></div>
-              <img src="assets/img/logo/6.png" alt="">
-              <div class="info">
-                <div class="content">
-                  <div class="entry">
-                    <div>
-                      <h5>Snapchat</h5>
-                      <a href="#">www.google.com</a> </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="logo-box">
-              <div class="after-bg p-absolute w-100 h-100 cover-bg"
-                                 data-image-src="assets/img/pattern.png"></div>
-              <img src="assets/img/logo/7.png" alt="">
-              <div class="info">
-                <div class="content">
-                  <div class="entry">
-                    <div>
-                      <h5>AppLovin</h5>
-                      <a href="#">www.google.com</a> </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="logo-box">
-              <div class="after-bg p-absolute w-100 h-100 cover-bg"
-                                 data-image-src="assets/img/pattern.png"></div>
-              <img src="assets/img/logo/8.png" alt="">
-              <div class="info">
-                <div class="content">
-                  <div class="entry">
-                    <div>
-                      <h5>UnityAds</h5>
-                      <a href="#">www.google.com</a> </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div> -->
-      <section class="next-up next-project p-relative section-padding">
-        <div class="bg-section p-absolute w-100 h-100 over-hidden">
-          <div class="h-100 before-z-index" data-dsn-grid="move-up" data-overlay="5"> <img
-              class="cover-bg-img has-top-bottom" src="assets/img/bg-2.jpeg" alt=""> </div>
-        </div>
-        <div class="container-fluid p-relative dsn-z-index-2">
-          <div class="row margin-lr-100">
-            <div class="col-lg-6 col-md-7 offset-lg-6 offset-md-5">
-              <div class="next-up-inner p-relative background-section">
-                <h2 class="title">我们 <br>
-                  欢迎 <br>
-                  您的加入！</h2>
-                <a href="contact.html" class="btn background-theme p-relative effect-ajax"
-                  data-dsn="parallax"><span>联系我们</span></a>
-                <div class="infos d-flex a-item-center bd-highlight">
-                  <div class="infos_content mr-auto"> See More <br>
-                    Works!</div>
-                  <div class="infos_button "> <a href="work.html" class="effect-ajax image-zoom " data-dsn="parallax">
-                      portfolio </a> </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <footer class="footer-1 p-relative background-section">
-        <div class="container">
-          <div class="footer-links p-relative">
-            <div class="row">
-              <div class="col-lg-3 col-md-6 footer-block-inner">
-                <div class="footer-block">
-                  <div class="footer-logo"> <a href=""> <img src="assets/img/logo.png" alt="" class="logo-dark"> <img
-                        src="assets/img/logo-dark.png" alt="" class="logo-light"> </a> </div>
-                  <div class="textwidget">
-                    <p>我们专注海外行业5年，成功助力5000+企业出海，投放品类涉及游戏、电商、应用、金融、短剧等。</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6 footer-block-inner">
-                <div class="footer-block col-menu">
-                  <h4 class="footer-title">关注我们</h4>
-                  <div class="footer-social p-relative">
-                    <ul>
-                      <li class="over-hidden"> <a href="#" data-dsn="parallax" target="_blank"
-                          rel="nofollow">企业微信.</a> </li>
-                      <li class="over-hidden"> <a href="https://t.me/HessenNetwork" data-dsn="parallax" target="_blank"
-                          rel="nofollow">Telegram.</a> </li>
-                      <li class="over-hidden"> <a href="https://wa.me/message/I73U24PXMAYBO1" data-dsn="parallax" target="_blank"
-                          rel="nofollow">Whatsapp.</a> </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6 footer-block-inner">
-                <div class="footer-block col-contact">
-                  <h4 class="footer-title">联系方式</h4>
-                  <p><strong>T</strong> <span>:</span> +852 6610 5584</p> 
-                  <p class="over-hidden"><strong>E</strong> <span>:</span><a class="link-hover"
-                      data-hover-text="Hessenservice@outlook.com" href="#">Hessenservice@outlook.com</a> </p>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6 footer-block-inner">
-                <div class="col-address">
-                  <h4 class="footer-title">地址</h4>
-                  <p>ROOM 511, 5/F,, MING SANG IND BLDG,,<br>
-                    19-21 HING YIP STREET,, KWUN TONG, <br>
-                    HONG KONG</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="footer-nav">
-          <div class="container">
-            <ul>
-                <li><a class="link-hover" data-dsn="parallax" href="index.html">首页</a></li>
+          <ul>
+            <li><a class="link-hover" data-dsn="parallax" href="index.html">首页</a></li>
             <li><a class="link-hover" data-dsn="parallax" href="server-1.html">出海服务产品</a></li>
             <li><a class="link-hover" data-dsn="parallax" href="work-3.html">出海解决方案</a></li>
             <li><a class="link-hover" data-dsn="parallax" href="about-2.html">关于我们</a></li>
             <li><a class="link-hover" data-dsn="parallax" href="xieyi.html">隐私协议</a></li>
 
             <li><a class="link-hover" data-dsn="parallax" href="contact.html">联系我们</a></li>
-            </ul>
-          </div>
+          </ul>
         </div>
-        <div class="copyright">
-          <div class="text-center">
-            <p>© 2024 HESSEN NETWORK</p>
-            <div class="copright-text over-hidden">DESIGNED BY<a class="link-hover" data-hover-text="DSN Grid" href="#"
-                target="_blank">HESSEN</a> </div>
-          </div>
+      </div>
+      <div class="copyright">
+        <div class="text-center">
+          <p>© 2024 HESSEN NETWORK</p>
+          <div class="copright-text over-hidden">DESIGNED BY<a class="link-hover" data-hover-text="DSN Grid" href="#"
+              target="_blank">HESSEN</a> </div>
         </div>
-      </footer>
+      </div>
+    </footer>
     </div>
   </main>
   <!-- <div class="scroll-to-top"> <img src="assets/img/scroll_top.svg" alt="">
@@ -1163,7 +809,7 @@
         class="cursor-open"><i class="fas fa-plus"></i></span> <span class="cursor-close">Close</span> <span
         class="cursor-play">play</span> <span class="cursor-next"><i class="fas fa-chevron-right"></i></span> <span
         class="cursor-prev"><i class="fas fa-chevron-left"></i></span> </div>
-  </div> 
+  </div>
 
   <!-- Optional JavaScript -->
   <script src="assets/js/jquery-3.1.1.min.js"></script>
@@ -1177,7 +823,14 @@
   <script src="assets/js/dsn-grid.js"></script>
 
   <script src="assets/js/custom.js"></script>
+<style>
+  @media (max-width:1000px) {
+     .header-master {
+      height: 618px!important;
+    }
+}
 
-   </body>
+</style>
+</body>
 
 </html>
