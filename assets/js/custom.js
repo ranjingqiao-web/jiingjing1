@@ -2921,7 +2921,7 @@ function contactValidator() {
      
      <div class="logo-box">
        <div class="after-bg p-absolute w-100 h-100 cover-bg" data-image-src="assets/img/pattern.png"></div>
-       <img src="assets/img/logo/6.png" alt="">
+       <img src="assets/img/logo/7.png" alt="">
        <div class="info">
          <div class="content">
            <div class="entry">
@@ -2935,7 +2935,7 @@ function contactValidator() {
      </div>
      <div class="logo-box">
        <div class="after-bg p-absolute w-100 h-100 cover-bg" data-image-src="assets/img/pattern.png"></div>
-       <img src="assets/img/logo/7.png" alt="">
+       <img src="assets/img/logo/6.png" alt="">
        <div class="info">
          <div class="content">
            <div class="entry">
