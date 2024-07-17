@@ -14,7 +14,7 @@
                 <h5 class="cat">出海解决方案</h5>
                 <h4>游戏出海</h4>
                 <p> 资深游戏出海服务团队，整合全球数字媒体流量和服务优势，通过强大的技术保障和产品，为出海游戏发行商提供出海增长一站式解决方案，助其逐鹿海外。 </p>
-                <span><span>Veiw Project</span></span>
+                <span><span></span></span>
               </a> </div>
           </div>
           <div class="work-item slick-slide p-relative over-hidden">
@@ -26,7 +26,7 @@
                 <h5 class="cat">出海解决方案</h5>
                 <h4>电商出海</h4>
                 <p> 深度整合全球数字媒体流量，以商业智能为基础，为商家提供跨境商城一站式建设、全闭环代运营直播等服务，帮助国内卖家落地海外，在全球市场取得成功。 </p>
-                <span><span>Veiw Project</span></span>
+                <span><span></span></span>
               </a> </div>
           </div>
           <div class="work-item slick-slide p-relative over-hidden">
@@ -40,7 +40,7 @@
                 <p>
                   充分整合全球数字媒体流量和服务资源，为不同品类的移动应用定制本土增长方案，通过智能技术为应用适配并联动最优质的原生态资源进行精准投放，提高应用下载量和用户留存率，实现高质量获客，成功在海外实现商业变现。
                 </p>
-                <span><span>Veiw Project</span></span>
+                <span><span></span></span>
               </a> </div>
           </div>
           <div class="work-item slick-slide p-relative over-hidden">
@@ -52,7 +52,7 @@
                 <h5 class="cat">出海解决方案</h5>
                 <h4>金融科技出海</h4>
                 <p>整合行业内顶尖金融数字化转型上的经验和技术创新能力，一起构建行业领先的解决方案，拓展全球市场，做大金融科技蛋糕，共创金融行业新价值，实现商业共赢。</p>
-                <span><span>Veiw Project</span></span>
+                <span><span></span></span>
               </a> </div>
           </div>
           <div class="work-item slick-slide p-relative over-hidden">
@@ -64,7 +64,7 @@
                 <h5 class="cat">出海解决方案</h5>
                 <h4>短剧出海</h4>
                 <p>提供一站式短剧音视频平台，智能解码音频，全球播放加速，防止版权被盗，降低短剧开发成本，带来高流量高转化。</p>
-                <span><span>Veiw Project</span></span>
+                <span><span></span></span>
               </a> </div>
           </div>
           <div class="work-item slick-slide p-relative over-hidden">
@@ -76,7 +76,7 @@
                 <h5 class="cat">出海解决方案</h5>
                 <h4>品牌出海</h4>
                 <p>从中国制造到中国创造，品牌出海成当前出海主流趋势。我们基于人工智能创意内容生成技术，并独有定制化全栈品牌出海服务，帮助国内企业塑造海外品牌，打造穿越周期的国际竞争力。</p>
-                <span><span>Veiw Project</span></span>
+                <span><span></span></span>
               </a></div>
           </div>
           <div class="work-item slick-slide p-relative over-hidden">
@@ -88,7 +88,7 @@
                 <h5 class="cat">出海解决方案</h5>
                 <h4>社媒运营</h4>
                 <p>通过社交媒体营销策略，驱动企业目标及营销结果提升，增加产品曝光，吸引更多的潜在客户，提高品牌在各大社媒平台的影响力。</p>
-                <span><span>Veiw Project</span></span>
+                <span><span></span></span>
               </a> </div>
           </div>
           <div class="work-item slick-slide p-relative over-hidden">
@@ -100,7 +100,7 @@
                 <h5 class="cat">出海解决方案</h5>
                 <h4>红人营销</h4>
                 <p>帮助客户拓展、招募和发展契合的海外内容营销伙伴，在一站式海外网红营销管理平台上，获取全渠道的网红内容绩效数据。</p>
-                <span><span>Veiw Project</span></span>
+                <span><span></span></span>
               </a> </div>
           </div>
         </div>
@@ -116,7 +116,7 @@
            <h5 class="cat">出海解决方案</h5>
            <h4>游戏出海</h4>
            <h4> 资深游戏出海服务团队，整合全球数字媒体流量和服务优势，通过强大的技术保障和产品，为出海游戏发行商提供出海增长一站式解决方案，助其逐鹿海外。 </h4>
-           <span><span>Veiw Project</span></span>
+           <span><span></span></span>
          </a> </div>
      </div>
      <div class="work-item slick-slide p-relative over-hidden">
@@ -128,7 +128,7 @@
            <h5 class="cat">出海解决方案</h5>
            <h4>电商出海</h4>
            <h4> 深度整合全球数字媒体流量，以商业智能为基础，为商家提供跨境商城一站式建设、全闭环代运营直播等服务，帮助国内卖家落地海外，在全球市场取得成功。 </h4>
-           <span><span>Veiw Project</span></span>
+           <span><span></span></span>
          </a> </div>
      </div>
      <div class="work-item slick-slide p-relative over-hidden">
@@ -142,7 +142,7 @@
            <h4>
              充分整合全球数字媒体流量和服务资源，为不同品类的移动应用定制本土增长方案，通过智能技术为应用适配并联动最优质的原生态资源进行精准投放，提高应用下载量和用户留存率，实现高质量获客，成功在海外实现商业变现。
            </h4>
-           <span><span>Veiw Project</span></span>
+           <span><span></span></span>
          </a> </div>
      </div>
      <div class="work-item slick-slide p-relative over-hidden">
@@ -154,7 +154,7 @@
            <h5 class="cat">出海解决方案</h5>
            <h4>金融科技出海</h4>
            <h4>整合行业内顶尖金融数字化转型上的经验和技术创新能力，一起构建行业领先的解决方案，拓展全球市场，做大金融科技蛋糕，共创金融行业新价值，实现商业共赢。</h4>
-           <span><span>Veiw Project</span></span>
+           <span><span></span></span>
          </a> </div>
      </div>
      <div class="work-item slick-slide p-relative over-hidden">
@@ -166,7 +166,7 @@
            <h5 class="cat">出海解决方案</h5>
            <h4>短剧出海</h4>
            <h4>提供一站式短剧音视频平台，智能解码音频，全球播放加速，防止版权被盗，降低短剧开发成本，带来高流量高转化。</h4>
-           <span><span>Veiw Project</span></span>
+           <span><span></span></span>
          </a> </div>
      </div>
      <div class="work-item slick-slide p-relative over-hidden">
@@ -178,7 +178,7 @@
            <h5 class="cat">出海解决方案</h5>
            <h4>品牌出海</h4>
            <h4>从中国制造到中国创造，品牌出海成当前出海主流趋势。我们基于人工智能创意内容生成技术，并独有定制化全栈品牌出海服务，帮助国内企业塑造海外品牌，打造穿越周期的国际竞争力。</h4>
-           <span><span>Veiw Project</span></span>
+           <span><span></span></span>
          </a></div>
      </div>
      <div class="work-item slick-slide p-relative over-hidden">
@@ -190,7 +190,7 @@
            <h5 class="cat">出海解决方案</h5>
            <h4>社媒运营</h4>
            <h4>通过社交媒体营销策略，驱动企业目标及营销结果提升，增加产品曝光，吸引更多的潜在客户，提高品牌在各大社媒平台的影响力。</h4>
-           <span><span>Veiw Project</span></span>
+           <span><span></span></span>
          </a> </div>
      </div>
      <div class="work-item slick-slide p-relative over-hidden">
@@ -202,7 +202,7 @@
            <h5 class="cat">出海解决方案</h5>
            <h4>红人营销</h4>
            <h4>帮助客户拓展、招募和发展契合的海外内容营销伙伴，在一站式海外网红营销管理平台上，获取全渠道的网红内容绩效数据。</h4>
-           <span><span>Veiw Project</span></span>
+           <span><span></span></span>
          </a> </div>
      </div>
    </div>`;
